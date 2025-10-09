@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Brick" parent="android:Theme.Material.Light">
         <item name="android:colorPrimary">@color/background</item>
