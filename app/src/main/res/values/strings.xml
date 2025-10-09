@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Brick</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="new_game">New Game</string>
+    <string name="sound_off">Sound Off</string>
+    <string name="sound_on">Sound On</string>
+    <string name="action_options">Options…</string>
+    <string name="action_help">Help…</string>
+    <string name="action_about">About…</string>
+    <string name="action_exit">Exit</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="help_dialog_title">How to Play</string>
+    <string name="help_dialog_text">- Swipe up to rotate.\n- Swipe down to drop.\n- Swipe left or right to move.\n</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_text">This app is not compatible with your screen. Try rotate the screen.</string>
+    <string name="back_button_toast_text">Press again to exit</string>
+    <string name="options_dialog_title">Options</string>
+    <string-array name="options_dialog_items">
+        <item>Rotate direction: Left</item>
+        <item>Simple shapes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eaydin79.brick.MainActivity">
+
+    <item
+        android:id="@+id/action_play_pause"
+        android:title="@string/play"
+        android:icon="@drawable/ic_action_play"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_sound"
+        android:title="@string/sound_off"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_action_sound_on"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_new_game"
+        android:title="@string/new_game"
+        android:orderInCategory="103"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_options"
+        android:title="@string/action_options"
+        android:orderInCategory="104"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/action_help"
+        android:orderInCategory="105"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="106"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        android:orderInCategory="107"
+        android:showAsAction="never" />
+
+</menu>

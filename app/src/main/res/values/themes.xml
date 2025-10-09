@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Brick" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.Brick" parent="Base.Theme.Brick" />
+</resources>
