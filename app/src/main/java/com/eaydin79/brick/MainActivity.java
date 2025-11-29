@@ -11,6 +11,7 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -29,7 +30,10 @@ public class MainActivity extends Activity {
         Preferences.load(this);
         mainView = new MainView(this, this);
         //mainView.setBackgroundColor(getColor(R.color.background));
-        mainView.setOnGameOverListener(() -> runOnUiThread(() -> setPlayPauseMenu(false) ));
+        mainView.setOnGameOverListener(() -> runOnUiThread(() -> {
+            Toast.makeText(this, R.string.toast_game_over, Toast.LENGTH_SHORT).show();
+            setPlayPauseMenu(false);
+        } ));
         setContentView(mainView);
     }
 

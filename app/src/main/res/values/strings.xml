@@ -17,6 +17,7 @@
     <string name="error_dialog_text">This app is not compatible with your screen. Try rotate the screen.</string>
     <string name="back_button_toast_text">Press again to exit</string>
     <string name="options_dialog_title">Options</string>
+    <string name="toast_game_over">Game Over</string>
     <string-array name="options_dialog_items">
         <item>Rotate direction: Left</item>
         <item>Simple shapes</item>
